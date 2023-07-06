@@ -1,0 +1,109 @@
+:root {
+  background: white;
+}
+* {
+  color: black;
+}
+h1 {
+  color: blue;
+}
+.green {
+  color: green;
+}
+#blue {
+  background: blue;
+}
+.box {
+  background: green;
+}
+.box > p {
+  background: red;
+}
+.brown {
+  color: white;
+  background: brown;
+}
+ul > li {
+  background: red;
+}
+.header-button + span {
+  background: red;
+}
+.susid ~ p {
+  color: white;
+  background: red;
+}
+.salo,
+#bread {
+  background: yellow;
+}
+.first-task > ul > li:first-child {
+  color: white;
+  background: orange;
+}
+.second-task > ul:first-child > li:first-child {
+  color: yellow;
+}
+.third-task > ul:nth-child(2) > li:first-child {
+  background: yellow;
+}
+.four-task > ul > li:last-child {
+  background: yellow;
+}
+.five-task > ul:last-child > li:last-child {
+  color: white;
+}
+.only-child-task > div:only-child {
+  color: red;
+}
+.seven-task > p:first-of-type {
+  background: red;
+}
+.eight-task > p:last-of-type {
+  background: red;
+}
+.nine-task > .text-wrapper > p:only-of-type {
+  background: yellow;
+}
+.lesson-three-task-one > nav > ul > li > a {
+  color: white;
+}
+.lesson-three-task-two > li[value] {
+  color: yellow;
+}
+.lesson-three-task-three > li[value] {
+  background: red;
+}
+.lesson-three-task-four > button[class|='primary action'] {
+  background: blue;
+}
+.lesson-three-task-five > button[class|='secondary'] {
+  background: red;
+}
+.lesson-three-task-six > ul > li[class^='b'] {
+  background: white;
+  color: green;
+}
+.lesson-three-task-seven > ul > li[class*='on'] {
+  background: white;
+  color: green;
+}
+.lesson-three-task-eight > ul > li > span[class$='s'] {
+  background: white;
+  color: blue;
+}
+.lesson-three-task-nine > h2::first-letter {
+  color: red;
+}
+.lesson-three-task-ten > p:first-child::first-line {
+  background: yellow;
+}
+.lesson-three-task-eleven > input::placeholder {
+  background: red;
+}
+.lesson-three-task-twelve > ul > li::before {
+  content: '➤';
+}
+.lesson-three-task-thirteen > ul > li::after {
+  content: '➤';
+}
